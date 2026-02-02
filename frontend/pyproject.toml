@@ -1,0 +1,22 @@
+[project]
+name = "frontend"
+version = "0.1.0"
+dependencies = [
+    "streamlit",
+    "httpx",
+    "python-dotenv",
+    "reportlab"
+]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest",
+]

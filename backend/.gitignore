@@ -1,0 +1,43 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Environment variables
+.env
+.env.local
+
+# Database files
+*.db
+*.db-journal
+sql_app.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploaded files
+files/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Cursor / IDE indexing (keep logs/caches out of search)
+.cursorignore
+.cursorindexingignore

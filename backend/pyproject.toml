@@ -1,0 +1,42 @@
+[project]
+name = "backend"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "SQLAlchemy>=2.0.0",
+    "psycopg2-binary>=2.9.9",
+    "python-jose[cryptography]",
+    "passlib[bcrypt]==1.7.4",
+    "bcrypt==4.0.1",
+    "python-multipart",
+    "python-dotenv>=1.0.0",
+    "langchain>=0.1.0",
+    "langchain-openai>=0.0.5",
+    "langchain-core>=0.1.0",
+    "langgraph>=0.0.50",
+    "openai>=1.10.0",
+    "langfuse>=2.0.0",
+    "tree-sitter",
+    "tree-sitter-python",
+    "tree-sitter-javascript",
+    "tree-sitter-typescript",
+    "tree-sitter-java",
+    "tree-sitter-go",
+    "tree-sitter-rust",
+    "tree-sitter-cpp",
+    "tree-sitter-c-sharp",
+]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest",
+]

@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.Python
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.envrc
+
+# Database
+*.db
+*.db-journal
+sql_app.db
+postgres_data/
+
+# Logs
+*.log
+logs/
+backend/logs/
+frontend/logs/
+frontend/frontend/logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependency managers
+uv.lock
+poetry.lock
+.pdm-build/
+.pdm-python
+node_modules/
+
+# Project-specific uploaded files
+backend/files/
+files/
+
+# Frontend Streamlit
+frontend/.streamlit/
+
+# Docker
+*.tar
+.docker/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+.tox/
+.nox/
+
+# Ruff
+.ruff_cache/
+
+# Cursor
+.cursorignore
+.cursorindexingignore
